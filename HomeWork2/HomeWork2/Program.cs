@@ -7,6 +7,21 @@ class Program
 {
     static void Main(string[] args)
     {
+        // Task 1
+        Student student = new("John" , 25);
+        student.Introduce();
+        
+        
+        // Task 2
+        BankAccount account = new BankAccount();
+        account.Deposit(45.2);
+        account.Deposit(55);
+        account.Deposit(120);
+        account.Withdraw(50);
+        account.Withdraw(430);
+        account.ShowBalance();
+         
+        
         // Task 3
         Console.Write("Enter input1: ");
         string input1 = Console.ReadLine();
