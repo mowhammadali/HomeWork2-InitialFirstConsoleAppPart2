@@ -28,6 +28,3 @@ class Student
         Console.WriteLine($"Hello , my name is {Name} and I am {Age} years old");
     }
 }
-
-
-
